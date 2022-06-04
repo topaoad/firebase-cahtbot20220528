@@ -6,10 +6,11 @@
 
 .c-box {
     background: #fff;
-    border: 1px solid rgba(0,0,0,0.3);
+    border: 1px solid rgba(0, 0, 0, 0.3);
     border-radius: 4px;
     box-sizing: border-box;
-    height: 592px;
+    max-height: 700px;
+    height: 100%;
     max-width: 432px;
     padding: 0 1rem;
     width: 100%;
@@ -67,7 +68,60 @@
 }
 
 
-.button-red{
-    background-color: red!important;
+#root .MuiButton-root {
     width: 100%;
+    background-color: #fff;
+    border: 2px solid #FFB549;
+    color: #FFB549;
+    font-weight: 600;
+    margin-bottom: 8px;
+
+}
+
+#root .MuiButton-root:hover {
+
+    background-color: #FFB549;
+    color: #fff;
+
+
+}
+
+#root .c-grid__answer {
+    /* margin-top: 50px; */
+    height: 38%;
+
+}
+
+#root .c-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* カスタムプロパティ未対応ブラウザ用のフォールバック */
+    min-height: calc(var(--vh, 1vh) * 100);
+}
+
+#root .c-box {
+    /* margin-top: 20px; */
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+    height: 100vh;
+ 
+}
+
+#root h1{
+    text-align: center;
+    background-color: rgb(232, 170, 94);
+    color: rgb(230, 237, 243);
+    font-size: 26px;
+    /* margin-left: -16px; */
+}
+
+#root .chats{
+ 
+    height: 48%;
+    padding: 0;
+    overflow: auto;
+    max-width: 100%;
 }

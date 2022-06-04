@@ -24,7 +24,7 @@ import { useState, useEffect } from "react";
 const Chats = (props) => {
   // console.log(props);ここではすでに複数入っている
   return (
-    <List sx={{ width: "100%", maxWidth: 360, bgcolor: "background.paper" }}>
+    <List  className="chats" sx={{ width: "100%", maxWidth: 360 }} id={"scroll-area"}>
       {props.chats.map((chat, index) => {
         return (
           <Chat text={chat.text} type={chat.type} key={index.toString()}></Chat>

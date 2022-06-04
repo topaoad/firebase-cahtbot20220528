@@ -1,10 +1,10 @@
 const defaultDataset = {
     "init": {
         answers: [
-            {content: "安田記念の有力馬情報", nextId: "job_offer"},
-            {content: "宝塚記念の出走予定", nextId: "consultant"},
-            {content: "ドゥデュースはどこまで強いのか", nextId: "community"},
-            {content: "とっぷのスキルについて", nextId: "dating"},
+            {content: "仕事を依頼したい", nextId: "job_offer"},
+            {content: "今回参考にしたとらゼミさんについて", nextId: "consultant"},
+            {content: "とっぷのブログについて", nextId: "https://tktoplog.com/main-blog"},
+            {content: "とっぷのポートフォリオ", nextId: "https://tktoplog.com/next-portforio/"},
         ],
         question: "こんにちは！何が知りたいですか？",
     },
@@ -56,7 +56,6 @@ const defaultDataset = {
     "community": {
         answers: [
             {content: "どんな活動をしているの？", nextId: "community_activity"},
-            {content: "コミュニティに参加したい", nextId: "https://torahack.web.app/community/"},
             {content: "最初の質問に戻る", nextId: "init"}
         ],
         question: "2020年3月から学習コミュニティを始めました！🎉Webエンジニアへの転職を目指す人向けに、プログラミングを教えたりキャリアの相談に乗っています。",
