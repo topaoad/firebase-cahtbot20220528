@@ -75,7 +75,7 @@ validateRequiredInput = (...args) => {
               + '【問い合わせ内容】\n' + description
       };
 
-      // const url = 'https://hooks.slack.com/services/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';
+      
      
       // fetchメソッドでフォームの内容をSlackのIncoming Webhook URL に送信する
       fetch(url, {
