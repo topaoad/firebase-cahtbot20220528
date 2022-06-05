@@ -25,6 +25,7 @@ export default class App extends React.Component {
       currentId: "init",
       dataset: defaultDataset,
       open: false,
+      
     };
 
     // this.initAnswers = this.initAnswers.bind(this);
